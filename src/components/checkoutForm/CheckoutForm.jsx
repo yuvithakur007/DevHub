@@ -60,7 +60,7 @@ const CheckoutForm = () => {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "https://developershub.vercel.app/success",
+        return_url: "https://devhubbackend.onrender.com/success",
       },
     });
 
