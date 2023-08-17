@@ -44,10 +44,6 @@ function Navbar() {
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>DevHub Business</span>
-          <span>Explore</span>
-          <span>English</span>
-          {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
               <img src={currentUser.img || "/img/noavatar.jpg"} alt="" />
@@ -67,9 +63,6 @@ function Navbar() {
                   <Link className="link" to="/orders">
                     Orders
                   </Link>
-                  <Link className="link" to="/messages">
-                    Messages
-                  </Link>
                   <Link className="link" onClick={handleLogout}>
                     Logout
                   </Link>
@@ -86,41 +79,6 @@ function Navbar() {
           )}
         </div>
       </div>
-      {(active || pathname !== "/") && (
-        <>
-          <hr />
-          <div className="menu">
-            <Link className="link menuLink" to="/">
-              Graphics & Design
-            </Link>
-            <Link className="link menuLink" to="/">
-              Video & Animation
-            </Link>
-            <Link className="link menuLink" to="/">
-              Writing & Translation
-            </Link>
-            <Link className="link menuLink" to="/">
-              AI Services
-            </Link>
-            <Link className="link menuLink" to="/">
-              Digital Marketing
-            </Link>
-            <Link className="link menuLink" to="/">
-              Music & Audio
-            </Link>
-            <Link className="link menuLink" to="/">
-              Programming & Tech
-            </Link>
-            <Link className="link menuLink" to="/">
-              Business
-            </Link>
-            <Link className="link menuLink" to="/">
-              Lifestyle
-            </Link>
-          </div>
-          <hr />
-        </>
-      )}
     </div>
   );
 }

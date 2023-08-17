@@ -43,11 +43,11 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">DevHub > Graphics & Design ></span>
-        <h1>AI Artists</h1>
-        <p>
-          Explore the boundaries of art and technology with DevHub's AI artists
-        </p>
+        {/* <span className="breadcrumbs">DevHub > Graphics & Design ></span>
+        <h1>AI Artists</h1> */}
+        <h1>
+          Explore the boundaries with DevHub's artists
+        </h1>
         <div className="menu">
           <div className="left">
             <span>Budget</span>
