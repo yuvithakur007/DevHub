@@ -3,12 +3,14 @@
 DevHub is a platform designed for tech enthusiasts to showcase their skills, compete with peers, and find job opportunities that match their skill set. Whether you're a developer, designer, or another tech professional, provides a space where you can demonstrate your expertise.
 
 ## Home Page
-<img align="center" src="![image](https://github.com/yuvithakur007/DevHub/assets/63182105/16d9813b-6797-4192-96f5-b1901ef72108)
-">
+![image](https://github.com/yuvithakur007/DevHub/assets/63182105/bef7f067-2af0-4153-b294-ca13e189e070)
+
+
 
 ## Gigs Page
-<img align="center" src="![image](https://github.com/yuvithakur007/DevHub/assets/63182105/0dddc279-c3f7-411e-9edf-0718ca54ed04)
-">
+
+![image](https://github.com/yuvithakur007/DevHub/assets/63182105/515999ac-3c14-404c-83e2-6c604c1b1c55)
+
 
 ## 🔗 Links
 (https://developershub.vercel.app/)
